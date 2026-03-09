@@ -361,3 +361,45 @@ body {
   font-size: 0.85rem;
   font-family: 'Inter', sans-serif;
 }
+
+/* SOLVED STATE */
+.solved-btn {
+  display: inline-block;
+  padding: 0.4rem 1rem;
+  background: var(--bg);
+  color: var(--green);
+  border: 1px solid var(--green);
+  border-radius: 4px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  cursor: pointer;
+  font-family: 'Inter', sans-serif;
+  transition: all 0.15s;
+}
+
+.solved-btn:hover {
+  background: var(--green-bg);
+}
+
+.solved-state {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.solved-tick {
+  font-size: 2rem;
+  color: var(--green);
+  font-weight: 700;
+}
+
+.solved-text {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--text);
+}
+
+.solved-sub {
+  font-size: 0.8rem;
+  color: var(--muted);
+}
